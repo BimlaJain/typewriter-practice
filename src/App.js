@@ -4,7 +4,7 @@ import TypeWriter from './components/TypeWriterPractice'
 const App = () => {
   return (
     <div>
-      <TypeWriter/>
+      <TypeWriter />
     </div>
   )
 }
