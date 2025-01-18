@@ -49,7 +49,7 @@ await stripe.paymentIntents.create({
         <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white flex flex-col lg:flex-row items-center px-8 relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-teal-400/10 to-blue-500/5 blur-3xl opacity-30 pointer-events-none"></div>
             <div ref={leftSectionRef} className="w-full lg:w-1/2 space-y-6 z-10">
-                <h4 className="text-teal-400 font-medium">Designed for developers</h4>
+                <h4 className="text-teal-400 font-medium max-lg:pt-10">Designed for developers</h4>
                 <h1 className="text-4xl lg:text-5xl font-bold">
                     Ship more quickly with powerful and easy-to-use APIs
                 </h1>
@@ -69,7 +69,7 @@ await stripe.paymentIntents.create({
                     </span>
                 </button>
             </div>
-            <div ref={rightSectionRef} className="w-full lg:w-1/2 flex justify-center z-10">
+            <div ref={rightSectionRef} className="w-full lg:w-1/2 flex justify-center z-10 max-lg:pt-10">
                 <div className="bg-gray-800 rounded-lg p-6 shadow-lg w-full max-w-md relative">
                     <div className="absolute inset-0 bg-gradient-to-br from-teal-500/20 to-blue-500/10 blur-xl opacity-75 -z-10"></div>
                     <div className="text-gray-200 text-sm">
