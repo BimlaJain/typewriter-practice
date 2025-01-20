@@ -49,10 +49,10 @@ await stripe.paymentIntents.create({
         <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white flex flex-col lg:flex-row items-center px-8 relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-teal-400/10 to-blue-500/5 blur-3xl opacity-30 pointer-events-none"></div>
             <div ref={leftSectionRef} className="w-full lg:w-1/2 space-y-6 z-10">
-                <h4 className="text-teal-400 font-medium max-lg:pt-10">Designed for developers</h4>
-                <h1 className="text-4xl lg:text-5xl font-bold">
+                <h1 className="text-teal-400 font-medium max-lg:pt-10">Designed for developers</h1>
+                <h2 className="text-4xl lg:text-5xl font-bold">
                     Ship more quickly with powerful and easy-to-use APIs
-                </h1>
+                </h2>
                 <p className="text-gray-400 leading-relaxed">
                     Save engineering time with unified payments functionality. We obsess
                     over the maze of gateways, payments rails, and financial institutions
