@@ -21,8 +21,8 @@ export default function Home() {
     }, []);
 
     return (
-        <div className="flex flex-col items-center min-h-screen bg-purple-300 py-10">
-            <h2 className="text-white text-2xl mb-5">
+        <div className="flex flex-col justify-center items-center min-h-screen bg-purple-300 py-10">
+            <h2 className="text-white text-6xl mb-20">
                 GSAP Stagger Animation
             </h2>
 
