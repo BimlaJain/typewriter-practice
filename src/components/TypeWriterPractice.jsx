@@ -92,5 +92,4 @@ await stripe.paymentIntents.create({
         </div>
     );
 };
-
 export default DeveloperSection;

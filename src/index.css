@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.exampleElement {
+    display: block;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: calc(50% - 50px);
+    transform-origin: center 400px;
+}
+
+.exampleElement1 {
+    left: calc(57% - 30px);
+}
+
