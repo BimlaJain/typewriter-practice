@@ -4,8 +4,6 @@ import { gsap} from 'gsap';
 export default function Home() {
     useEffect(() => {
         const alice = document.querySelectorAll('.exampleElement');
-
-        // Reset initial state and animate with gsap.fromTo for better control
         gsap.fromTo(
             alice,
             { rotation: 0, opacity: 0, y: 50 },
@@ -22,16 +20,16 @@ export default function Home() {
 
     return (
         <div className="flex flex-col justify-center items-center min-h-screen bg-purple-300 py-10">
-            <h2 className="text-white text-6xl mb-20">
+            <h2 className="text-white md:text-6xl text-center text-4xl mb-20">
                 GSAP Stagger Animation
             </h2>
 
             <div className="flex justify-center gap-4 w-full max-w-md h-48">
-                <img className="exampleElement w-24 h-auto rounded-lg shadow-lg" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/drinkmebottle.gif" alt="Alice" />
-                <img className="exampleElement w-24 h-auto rounded-lg shadow-lg" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/drinkmebottle.gif" alt="Alice" />
-                <img className="exampleElement w-24 h-auto rounded-lg shadow-lg" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/drinkmebottle.gif" alt="Alice" />
-                <img className="exampleElement w-24 h-auto rounded-lg shadow-lg" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/drinkmebottle.gif" alt="Alice" />
-                <img className="exampleElement w-24 h-auto rounded-lg shadow-lg" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/drinkmebottle.gif" alt="Alice" />
+                <img className="exampleElement md:w-24 w-16 h-auto rounded-lg shadow-lg" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/drinkmebottle.gif" alt="Alice" />
+                <img className="exampleElement md:w-24 w-16 h-auto rounded-lg shadow-lg" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/drinkmebottle.gif" alt="Alice" />
+                <img className="exampleElement md:w-24 w-16 h-auto rounded-lg shadow-lg" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/drinkmebottle.gif" alt="Alice" />
+                <img className="exampleElement md:w-24 w-16 h-auto rounded-lg shadow-lg" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/drinkmebottle.gif" alt="Alice" />
+                <img className="exampleElement md:w-24 w-16 h-auto rounded-lg shadow-lg" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/drinkmebottle.gif" alt="Alice" />
             </div>
         </div>
     );

@@ -5,8 +5,8 @@ import CardsWithGsap from './components/CardsWithGsap'
 const App = () => {
   return (
     <div>
-      <TypeWriter />
       <CardsWithGsap/>
+      <TypeWriter />
     </div>
   )
 }
