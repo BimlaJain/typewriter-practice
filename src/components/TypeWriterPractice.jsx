@@ -93,3 +93,96 @@ await stripe.paymentIntents.create({
     );
 };
 export default DeveloperSection;
+// "use client"
+// import React, { useEffect } from 'react'
+// import { gsap } from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
+// gsap.registerPlugin(ScrollTrigger);
+
+// const GsapPractice = () => {
+
+//     useEffect(() => {
+//         const tl = gsap.timeline({
+//             scrollTrigger: {
+//                 trigger: '.this-section',
+//                 start: 'top top',
+//                 end: 'bottom top',
+//                 markers: true,
+//                 scrub: 3,
+//                 pin: true
+
+//             }
+//         })
+
+//         tl.to('.box', {
+//             xPercent: 100,
+//             rotate: 360,
+//             duration: 2
+//         })
+
+//         gsap.to('.boxTwo', {
+//             rotate: 360,
+//             repeat: -1,
+//             duration: 2,
+//             yoyo: true
+//         })
+
+//         gsap.fromTo('.text', {
+//             opacity: 0,
+//             x: -100
+//         },
+//             {
+//                 opacity: 1,
+//                 x: 0,
+//                 stagger: 1
+//             }
+//         )
+//     })
+//     useEffect(() => {
+//         gsap.to('.circle', {
+//             rotate: 360,
+//             xPercent: 1000,
+//             repeat: -1,
+//             yoyo: true,
+//             duration: 3
+//         })
+//         gsap.fromTo('.text1', {
+//             opacity: 0,
+//             x: -100
+//         }, {
+//             opacity: 1,
+//             x: 0,
+//             stagger: 1
+//         })
+//     })
+//     return (
+//         <>
+//             <div className='min-h-screen flex justify-center items-center'><div className='flex flex-col '>
+//                 <a className='text' href="/">Lorem ipsum dolor sit amet.</a>
+//                 <a className='text' href="/">name</a>
+//                 <a className='text' href="/">name</a>
+//                 <a className='text' href="/">name</a>
+//                 <a className='text' href="/">name</a>
+//             </div>
+//             </div>
+//             <div className='this-section min-h-screen bg-white flex justify-center items-center'>
+//                 <div className='box size-96 bg-black'></div>
+//                 <div className='boxTwo size-96 bg-blue-500'></div>
+
+//             </div>
+//             <div className='flex items-center min-h-screen'>
+//                 <div className='circle size-24 rounded-lg bg-red-600'></div>
+//             </div>
+//             <div className='min-h-screen text-center'>
+//                 <div className='text1'>Lorem ipsum dolor sit.</div>
+//                 <div className='text1'>Lorem ipsum dolor sit.</div>
+//                 <div className='text1'>Lorem ipsum dolor sit.</div>
+//                 <div className='text1'>Lorem ipsum dolor sit.</div>
+//                 <div className='text1'>Lorem ipsum dolor sit.</div>
+//                 <div className='text1'>Lorem ipsum dolor sit.</div>
+//             </div>
+//         </>
+//     )
+// }
+
+// export default GsapPractice
