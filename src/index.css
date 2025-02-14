@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-.exampleElement {
+.alice {
     display: block;
     height: auto;
     position: absolute;
@@ -11,11 +11,8 @@
     transform-origin: center 400px;
 }
 
-.exampleElement1 {
-    left: calc(57% - 30px);
-}
 @media (max-width: 640px) {
-    .exampleElement {
+    .alice {
             
             transform-origin: center 240px;
         }
